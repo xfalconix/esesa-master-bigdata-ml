@@ -4,8 +4,8 @@
 <a href="https://www.arelance.com"><img src="https://img.shields.io/badge/Arelance-FF6B35?style=flat-square&logoColor=white" alt="Arelance"/></a>
 <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></a>
 
-> **Módulo 2: Aprendizaje Automático Aplicado**  
-> Fecha: 11-20 Noviembre 2025 | Instructor: [Manuel López Sheriff](https://www.linkedin.com/in/sheriff-data/)
+> **Material de aprendizaje y ejercicios del máster**  
+> Incluye material introductorio de [Manuel López Sheriff](https://www.linkedin.com/in/sheriff-data/) y un notebook adicional de fraude.
 
 Repositorio con notebooks, ejercicios y datasets del **Master en Big Data, Data Engineering & AI** de ESESA Business School y Arelance.
 
@@ -22,7 +22,7 @@ Repositorio con notebooks, ejercicios y datasets del **Master en Big Data, Data 
 | `00.plan.ipynb` | Planificación del módulo |
 | `01.review_pandas.ipynb` | Repaso de Pandas para análisis de datos |
 | `01.seaborn.ipynb` | Visualización de datos con Seaborn |
-| `Creditcard_redneuronal_2025_12_10_rev00.ipynb` | Red neuronal para detección de fraude en tarjetas de crédito |
+| `Creditcard_redneuronal_2025_12_10_rev00.ipynb` | Ejercicio adicional de autoencoder denso con Keras para fraude |
 
 ### Datasets disponibles
 
@@ -53,8 +53,8 @@ Repositorio con notebooks, ejercicios y datasets del **Master en Big Data, Data 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/xfalconix/2025_master_big_data_machine_learning.git
-cd 2025_master_big_data_machine_learning
+git clone https://github.com/xfalconix/esesa-master-bigdata-ml.git
+cd esesa-master-bigdata-ml
 
 # Crear entorno virtual
 python -m venv venv
@@ -94,7 +94,11 @@ jupyter notebook
 
 ---
 
-## 🎓 Instructor
+El notebook de fraude requiere además Keras con un backend compatible y acceso al CSV indicado en sus celdas. Es un ejercicio exploratorio sin evaluación independiente train/test.
+
+---
+
+## 🎓 Material introductorio
 
 **Manuel López Sheriff**  
 Data Professional · LinkedIn Learning Instructor  
